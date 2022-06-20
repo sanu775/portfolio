@@ -1,0 +1,75 @@
+.navbar {background-color: black !important;
+    color: white;
+    height: 85px;
+    position: fixed;
+    margin-top: -24px;
+    z-index: 1;
+    width: 123%;opacity: 0.8;}
+.active {color: rgba(255, 255, 255, 0.664) !important;}
+.navbar-nav {margin-left: 10px;margin-left: 105px;}
+.right {margin-left: 10%;margin-left: 30%;}
+            .on {height: 2px;
+                width: 23px;
+                background-color: #99f399;
+                margin-left: 16px;
+                margin-top: -6px;}
+                .line {height: 2px;
+                    width: 0px;
+                    background-color: #99f399;
+                    margin-left: 16px;
+                    margin-top: -6px;}
+                    .lines{
+                        display: flex;
+                        flex-direction: column;
+                    }
+                            .lines::after {
+                                content: '';
+                                height: 2px;
+                        width: 23px;
+                        background-color: #99f399;
+                        margin-left: 1px;
+                       display: none;
+                    
+                            }
+                            .lines:hover::after{
+                                display: inline;
+                            }
+body {background: url("mainimage//image1.jpg");background-size: cover;background-repeat: no-repeat;background-attachment: fixed;}
+.container {background-color: black;opacity: 0.8;position: relative;
+    top: 91px;}
+    .container h2 {color: white;
+        font-size: 21px;
+        margin-left: 20px;
+        padding-top: 28px;}
+    .learn {color: white;
+        font-size: 36px;
+        margin-left: 19px;}
+.sumary {color: white;
+    margin-left: 23px;
+    margin-top: 32px;}
+    .liness {width: 11%;
+        height: 2px;
+        background-color: #5aab5a;
+        left: 99px;
+        position: relative;
+        top: -16px;}
+    .mn-div {border-left: 2px solid;margin-top: 45px;margin-left: 27px;}
+.radius {background-color: green;
+    width: 2%;
+    height: 20px;
+    border-radius: 50px;
+    position: relative;
+    right: 12px;}
+.mn-div h5 {color: green;
+    font-weight: 700;
+    margin-top: -21px;
+    margin-left: 24px;}
+
+    .mn-div p {color: white;
+        font-style: italic;
+        width: 45%;
+        margin-left: 26px;}
+.un-list {color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;}
